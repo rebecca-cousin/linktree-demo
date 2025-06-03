@@ -1,0 +1,26 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Customizable\ Vibrant\ Design\ Template.jpeg");
+    text-align: center;
+}
+
+.link{
+    background-color: grey;
+    margin-bottom: 1%;
+ }
+
+.linker{
+    background-color: grey;
+    
+}
+
+section{
+    display: inline-block;
+    text-align: left;
+    background-color: antiquewhite;
+   
+}
+
