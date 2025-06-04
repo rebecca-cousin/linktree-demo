@@ -5,17 +5,14 @@ body{
     align-items: center;
     background-image: url("Customizable\ Vibrant\ Design\ Template.jpeg");
     text-align: center;
+    padding: 20px;
 }
 
-.link{
+.background-container{
+    display: flex;
+    gap:20px;
     background-color: #808080;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    max-width: 200px;
- }
-
-.linker{
-    background-color: grey;
+    margin: 20px 0;
     border-radius: 10px;
     max-width: 200px;
 }
@@ -23,19 +20,20 @@ body{
 section{
     display: inline-block;
     text-align: center;
-     width: 300%;
-     height:400%;
+    width: 300%;
+    height:400%;
     max-width: 400px;
     border-radius: 10px; 
-
-    box-shadow: 
-    0 0 0 1px rgba(0, 0, 0, 0.1), 
-    0 0 10px rgba(0, 0, 0, 0.05); 
-
-    transition: box-shadow 0.3s ease; 
-    border: 10px solid #342f2f(0, 0, 0, 0.2); 
     margin: 2%;
-    background-color: antiquewhite;
-  
+    padding: 20px;
+    justify-content: center;
+    background-color: antiquewhite; 
 }
+
+a{
+    color: whitesmoke;
+    /*font-weight: bold;*/
+    text-decoration: none;
+}
+
 
